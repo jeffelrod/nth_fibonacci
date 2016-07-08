@@ -11,7 +11,7 @@ if(!Number.isInteger(n) || n < 1 || process.argv.length > 3){
 console.log("Your input was " + n + ".");
 
 if(n > 79){
-  console.log("NOTE: this checker will only return a valid result up to the 79th Fibonacci number, because Javascript.");
+  console.log("NOTE: this tool will only return a valid result up to the 79th Fibonacci number, because Javascript.");
 }
 
 //here, we're defining the special cases for n = 1 and n = 2, plus giving ourselves a starting place if n >= 3!
