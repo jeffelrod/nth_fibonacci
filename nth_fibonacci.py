@@ -1,7 +1,7 @@
 # given n, find the nth fibonacci number
 
 # ask for n
-n = input("Please enter the which Fibonacci number you'd like calculated: ")
+n = input("Please enter which Fibonacci number you'd like calculated: ")
 
 # debug input
 # print("Your input was " + str(n))
