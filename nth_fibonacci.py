@@ -8,7 +8,7 @@ n = input("Please enter which Fibonacci number you'd like calculated: ")
 
 # handle errors
 import math
-if math.isnan(n) or n < 1:
+if type(n) is not int or n < 1:
   print("Sorry - input must be 1) a single integer, 2) greater than 0.")
 
 else:
